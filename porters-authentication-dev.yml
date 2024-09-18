@@ -3,6 +3,8 @@ server:
 
 app:
   api-prefix: /api/v1
+check:
+  test: 123
 spring:
   application:
     name: porters-authentication
