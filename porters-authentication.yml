@@ -1,0 +1,22 @@
+server:
+  port: 8081
+
+app:
+  api-prefix: /api/v1
+check:
+  test: 123
+spring:
+  application:
+    name: porters-authentication
+    id: porters-authentication
+  cloud:
+    config:
+      uri: http://localhost:8000
+
+  datasource:
+    url: "jdbc:postgresql://localhost:3307/identity"
+    username: root
+    password: root
+
+
+
